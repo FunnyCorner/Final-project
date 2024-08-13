@@ -142,3 +142,14 @@ python
 Копировать код
 if __name__ == '__main__':
     app.run(debug=True)
+
+    #Параметры теста веб сервиса через postman:{
+    "square_meters": 2000,
+    "rooms": 3,
+    "baths": 2,
+    "fireplace": 1,
+    "has_parking": 1,
+    "stories": 2,
+    "status": "for sale",
+    "region": "some_region"
+}
